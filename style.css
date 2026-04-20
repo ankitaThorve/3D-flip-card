@@ -6,3 +6,21 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+.wrapper{
+  height: 400px;
+  width: 320px;
+  position: relative;
+}
+
+.wrapper .card{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.wrapper .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
