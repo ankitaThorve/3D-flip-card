@@ -11,6 +11,7 @@ html, body{
   display: grid;
   height: 100%;
   place-items: center;
+  background: linear-gradient(375deg, #BDA6CE, #FE9EC7);
 }
 
 .wrapper{
@@ -23,10 +24,24 @@ html, body{
   height: 100%;
   width: 100%;
   position: absolute;
+  background: #fff;
 }
 
 .wrapper .card img{
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.wrapper .back-face{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wrapper .back-face img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
