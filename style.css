@@ -45,3 +45,29 @@ html, body{
   width: 150px;
   border-radius: 50%;
 }
+
+.wrapper .back-face .info{
+  text-align: center;
+}
+
+.back-face .info .title{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.back-face ul{
+  display: flex;
+}
+
+.back-face ul a{
+  display: block;
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(375deg, #BDA6CE, #FE9EC7);
+  text-align: center;
+  border: 2px solid transparent;
+  line-height: 38px;
+  margin: 0 5px;
+  border-radius: 50%;
+  color: #fff;
+}
