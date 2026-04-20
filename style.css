@@ -7,6 +7,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html, body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
 .wrapper{
   height: 400px;
   width: 320px;
